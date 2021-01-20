@@ -1,0 +1,1 @@
+content that is latest news.

@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ entryTitle }} was not found :(
+{% endblock %}
+
+{% block body %}
+    <h1><i>{{ entryTitle }}</i>?</h1>
+    <h4>I don't think this wiki exists...</h4>
+
+    <p>...but you can create it!</p>
+    <p> Click <a href="{% url 'new' %}">here</a> to create your wiki!</p>
+
+{% endblock %}
